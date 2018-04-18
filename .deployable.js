@@ -4,9 +4,7 @@
  */
 
 module.exports = {
-  modules: [{
-    name: 'app',
-    entry: 'src/app/index.js',
-    output: 'app.js',
-  }]
+  build: '',        // 构建入口
+  output: '',       // 输入地址
+  manifest: '',     // 压缩映射文件地址
 }
