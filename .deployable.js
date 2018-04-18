@@ -1,4 +1,7 @@
-// 部署配置
+/**
+ * 部署配置
+ * @author muffin
+ */
 
 module.exports = {
   images: 'src/images',
