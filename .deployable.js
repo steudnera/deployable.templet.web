@@ -4,11 +4,9 @@
  */
 
 module.exports = {
-  images: 'src/images',
-  font: 'src/fonts',
   modules: [{
-    name: 'sample',
-    entry: 'src/app/sample/app.js',
-    output: 'sample-app.js',
+    name: 'app',
+    entry: 'src/app/index.js',
+    output: 'app.js',
   }]
 }
