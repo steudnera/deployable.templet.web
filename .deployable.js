@@ -4,8 +4,15 @@
  */
 
 module.exports = {
-  build: '',        // 构建入口
-  output: '',       // 输入地址
-  manifest: '',     // 压缩映射文件地址
-  qn: '',           // 七牛
+  contents: [{
+    portal: "./dist/fonts",
+    type: "font",
+  }, {
+    portal: "./dist/images",
+    type: "image",
+  }],
+  dependencies: [],
+  portals: false,
+  build: "optimize",
+  manifest: "./dist/manifest.json",
 }
