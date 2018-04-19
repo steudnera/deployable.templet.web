@@ -16,3 +16,4 @@ module.exports = {
   build: "optimize",
   manifest: "./dist/manifest.json",
 }
+
