@@ -1,19 +1,16 @@
 /**
  * 部署配置
- * @author muffin
+ * @author steudnera
  */
 
 module.exports = {
-  contents: [{
-    portal: "./dist/fonts",
-    type: "font",
-  }, {
-    portal: "./dist/images",
-    type: "image",
-  }],
-  dependencies: [],
-  portals: false,
-  build: "optimize",
-  manifest: "./dist/manifest.json",
+  cdn: {},
+  portals: {
+    
+  },
+  output: {
+    manifest: "",
+    folder: "",
+  },
+  build: "build",
 }
-
