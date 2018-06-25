@@ -1,6 +1,6 @@
 /**
  * 部署配置
- * @author steudnera
+ * @author Steudnera
  */
 module.exports = {
   cdn: {
@@ -9,12 +9,7 @@ module.exports = {
     accessKey: '',
     secretKey: '',
   },
-  server_portals: {
-    example: {
-      portal: '',
-      server: '',
-    },
-  },
+  servers: ['blog.admin'],
   portals: {
     example: '',
   },
