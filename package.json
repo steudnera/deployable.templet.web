@@ -1,7 +1,7 @@
 {
-  "name": "deployable.templet",
+  "name": "web.templet",
   "version": "0.0.1",
-  "description": "deployable templet",
+  "description": "web templet",
   "author": "Steudnera <wowcxy2008@126.com>",
   "private": true,
   "scripts": {
